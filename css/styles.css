@@ -609,7 +609,8 @@ footer .container {
 
 } */
 
-.portfolio-item:hover .overlay-text {
+.portfolio-item:hover .overlay-text,
+.portfolio-item:focus .overlay-text {
   transform: translateY(0);
 }
 
